@@ -39,6 +39,13 @@ Output is in `dist/`.
 
 4. **Live URL**: After deployment, the app will be at:
    **https://mahipkumar-dotcom.github.io/Impact-Flow/**
+   (Use this exact URL — not the repo URL `github.com/.../Impact-Flow`.)
+
+**If you see a 404:**
+- Use the **Pages URL** above (with `username.github.io`), not the repo address.
+- In **Settings → Pages**, set source to the **gh-pages** branch, folder **/ (root)**.
+- Check the **Actions** tab: the "Deploy to GitHub Pages" workflow must have run and succeeded (green check).
+- Try both capital and lowercase in the path if your repo name differs: `.../Impact-Flow/` and `.../impact-flow/`. If lowercase works, set `base: '/impact-flow/'` in `vite.config.js` and redeploy.
 
 If you rename the repo, update `base` in `vite.config.js` to match (e.g. `base: '/your-repo-name/'`).
 
