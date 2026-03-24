@@ -46,15 +46,18 @@ npm run preview  # local preview of production build
 
 This repo is **[github.com/mahip-kakan/Health-Flow](https://github.com/mahip-kakan/Health-Flow)**.
 
-1. **Push to `main`** — the **Deploy to GitHub Pages** workflow ([`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)) builds and deploys to the `gh-pages` branch.
-2. **Repo settings** — **Settings** → **Pages** → source **Deploy from a branch** → branch **`gh-pages`**, folder **`/ (root)`**.
+1. **Push to `main`** — the **Deploy to GitHub Pages** workflow ([`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)) runs `npm run build` and pushes the contents of **`dist/`** to the **`gh-pages`** branch.
+2. **Repo settings (required)** — **Settings** → **Pages** → **Build and deployment** → **Source**: **Deploy from a branch** → choose branch **`gh-pages`**, folder **`/ (root)`**.  
+   **Do not** set the source to **`main`** with **`/ (root)`**. If you do, GitHub serves the raw repo `index.html` (with `/src/main.jsx`), which only works with `vite dev` — the site will look blank or broken in production.
 3. **Live site** — **[https://mahip-kakan.github.io/Health-Flow/](https://mahip-kakan.github.io/Health-Flow/)**  
    Use this `*.github.io` URL, not the raw `github.com/.../Health-Flow` code URL.
 
-**404 troubleshooting**
+**Site not loading / blank page**
 
-- Confirm the Actions workflow completed successfully.
-- If your Pages URL only works with a different path casing, set `base` in `vite.config.js` to match (e.g. `'/health-flow/'`) and redeploy.
+- **Wrong Pages source** — Most common: Pages is on **`main`** instead of **`gh-pages`**. Switch to **`gh-pages`** as above, wait a minute, hard-refresh.
+- **Actions** — In the **Actions** tab, open **Deploy to GitHub Pages** and confirm the latest run on `main` is green.
+- **First deploy** — Until the workflow runs once, the `gh-pages` branch may not exist; run the workflow (push to `main` or **Run workflow**), then select `gh-pages` in Pages settings.
+- **Path casing** — If only a lowercase URL works, set `base` in `vite.config.js` to match (e.g. `'/health-flow/'`) and redeploy.
 
 ## Tech
 
