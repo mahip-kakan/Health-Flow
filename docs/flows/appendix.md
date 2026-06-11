@@ -1,6 +1,6 @@
-# 05 — Healthcare & IT/SaaS Appendix
+# Healthcare & IT/SaaS — Appendix
 
-Supporting verticals demonstrating platform breadth. **De-prioritize in interview** unless asked about domain expansion or governance.
+Supporting verticals demonstrating platform breadth.
 
 ---
 
@@ -18,7 +18,7 @@ Supporting verticals demonstrating platform breadth. **De-prioritize in intervie
 
 Clinical care coordination, patient experience, and population health automation patterns. Includes healthcare glossary and clinical trigger/action catalogs.
 
-**Note:** Not intended for production PHI. Architecture diagram: [healthcare-automation-architecture.excalidraw](../architecture/healthcare-automation-architecture.excalidraw)
+**Note:** Not intended for production PHI. See [architecture overview](../architecture/README.md) for platform design.
 
 Source: `App.jsx` seeds, `src/data/triggers.js`, `src/data/actions.js`
 
@@ -80,4 +80,4 @@ Production backend implements vertical as a **dimension** on flow definitions, n
 | Knowledge layer | Clinical glossary | HR handbook RAG | Brand & campaign glossary | Tech + integration glossary |
 | Flagship AI pattern | Care plan automation | Policy QA + JD generator | Campaign debrief | Connector builder |
 | Governance surface | Clinical guardrails | HR compliance audit | Brand voice checks | AI Control Center preview |
-| Interview priority | Low | **High** | **Medium** | Medium (governance angle) |
+| Documentation focus | Low | **High** | **Medium** | Medium (governance) |

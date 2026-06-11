@@ -1,8 +1,8 @@
-# 07 — Eval & Governance
+# Eval & Governance
 
 Quality and governance framework mapped from the Testing Dashboard prototype to production platform services.
 
-**Diagram:** [diagrams/04-eval-pipeline.excalidraw](./diagrams/04-eval-pipeline.excalidraw)
+**Diagram:** [Architecture overview — eval pipeline](./README.md#ai-evaluation-pipeline) (renders on GitHub)
 
 ---
 

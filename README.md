@@ -4,7 +4,7 @@
 
 **Live demo:** [mahip-kakan.github.io/Work-Flow/](https://mahip-kakan.github.io/Work-Flow/)
 
-**Interview & architecture docs:** [docs/interview/README.md](./docs/interview/README.md)
+**Documentation:** [docs/README.md](./docs/README.md) — architecture, flow catalogs, roadmap
 
 ---
 
@@ -14,5 +14,5 @@
 |---|---|
 | **What it is** | A React + Vite single-page app: Agent Studio, EX chat, workspace modes (HR, Marketing, Healthcare, IT/SaaS), glossaries, and a **Testing Dashboard** for PM/Admin eval and observability. |
 | **Who it’s for** | Internal HR/Marketing process owners, platform PMs, and engineering reviewing UX, architecture, and AI quality gates — not production PHI or live HRIS integrations (Phase 0). |
-| **Documentation** | Full flow catalogs, backend architecture, eval framework, demo script, and Excalidraw diagrams in [`docs/interview/`](./docs/interview/README.md). |
+| **Documentation** | Architecture, flow catalogs, eval framework, and product walkthrough in [`docs/`](./docs/README.md). Diagrams use Mermaid and render on GitHub. |
 

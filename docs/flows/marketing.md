@@ -1,6 +1,6 @@
-# 04 — Marketing Flow Catalog
+# Marketing Flow Catalog
 
-Secondary interview vertical. Six recipe templates plus product-pillar agents for campaign, content, and brand operations.
+Secondary vertical. Six recipe templates plus product-pillar agents for campaign, content, and brand operations.
 
 ## Marketing modules
 
@@ -185,7 +185,8 @@ From Testing Dashboard seed data (`TESTING_SEED_MARKETING`):
 
 ---
 
-## Diagram reference
+## Related documentation
 
-- [Platform overview](./diagrams/01-platform-overview.excalidraw)  
-- [Eval pipeline](./diagrams/04-eval-pipeline.excalidraw)
+- [Marketing debrief sequence](../architecture/runtime-sequences.md#marketing-post-campaign-debrief)
+- [Eval & governance](../architecture/eval-and-governance.md)
+- [Architecture overview](../architecture/README.md)

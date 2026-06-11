@@ -1,6 +1,6 @@
-# 03 — HR Flow Catalog
+# HR Flow Catalog
 
-Primary interview vertical. All flows documented here exist in the prototype (`src/data/`, `App.jsx` seeds, HR product pillars).
+Primary vertical. All flows documented here exist in the prototype (`src/data/`, `App.jsx` seeds, HR product pillars).
 
 ## HR pillars (Discover → Product Flows)
 
@@ -99,7 +99,7 @@ Primary interview vertical. All flows documented here exist in the prototype (`s
 |-------|-------|
 | **ID** | `hr-1` |
 | **Status** | Active |
-| **Best for demo** | ✅ Primary demo flow |
+| **Recommended walkthrough** | Primary example in product tour |
 
 **Trigger:** `start-date-set` — Confirmed start date in HRIS
 
@@ -218,7 +218,7 @@ Source: `src/components/AIChatPanel.jsx`
 
 ---
 
-## Diagrams
+## Related documentation
 
-- [HR onboarding runtime sequence](./diagrams/02-hr-onboarding-sequence.excalidraw)  
-- [Backend architecture](./06-backend-architecture.md)
+- [HR onboarding runtime sequence](../architecture/runtime-sequences.md#hr-onboarding-runbook)
+- [Backend architecture](../architecture/backend-services.md)

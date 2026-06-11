@@ -1,8 +1,8 @@
-# 06 — Backend Architecture
+# Backend Services
 
 Target production architecture to productionize the Phase 0 front-end prototype. Designed for enterprise EX: governed, auditable, async, and multi-vertical.
 
-**Diagram:** [diagrams/03-backend-architecture.excalidraw](./diagrams/03-backend-architecture.excalidraw)
+**Diagrams:** [Architecture overview](./README.md) · [Runtime sequences](./runtime-sequences.md) — Mermaid diagrams render directly on GitHub.
 
 ---
 
@@ -167,7 +167,7 @@ Each action step:
 4. Retry transient failures; escalate permanent failures  
 5. Emit trace span + audit log entry  
 
-**Sequence diagram (HR onboarding):** [diagrams/02-hr-onboarding-sequence.excalidraw](./diagrams/02-hr-onboarding-sequence.excalidraw)
+**Sequence diagram (HR onboarding):** [runtime-sequences.md#hr-onboarding-runbook](./runtime-sequences.md#hr-onboarding-runbook)
 
 ### Execution API
 

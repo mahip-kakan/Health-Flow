@@ -1,4 +1,4 @@
-# 02 — Product Surfaces
+# Product Surfaces
 
 Every navigable surface in Workflow Studio, mapped to product purpose and persona.
 
@@ -66,8 +66,8 @@ When `activeView === 'editor'`:
 | Vertical | Glossary source | Product flows | Special surfaces |
 |----------|-----------------|---------------|------------------|
 | Healthcare | `healthcareChatGlossary.js` | Clinical care, patient experience pillars | Original demo vertical |
-| **HR** | `glossaryHr.js` | HRBP, TA, People Ops pillars | **Interview primary** |
-| **Marketing** | `marketingTemplates.js` | Campaign, content, brand pillars | **Interview secondary** |
+| **HR** | `glossaryHr.js` | HRBP, TA, People Ops pillars | Primary vertical |
+| **Marketing** | `marketingTemplates.js` | Campaign, content, brand pillars | Secondary vertical |
 | IT/SaaS | `glossaryItSaas.js` | Integration builder pillars | Connectors + AI Governance |
 
 ## Testing Dashboard screens
@@ -96,6 +96,7 @@ Overlay panels: New Eval, Define Workflow, Add Rule, Add Load Scenario, Add Drif
 | `marketingTemplates.js` | Six marketing recipe templates |
 | `saasConnectorCatalog.js` | IT/SaaS integration catalog |
 
-## Diagram reference
+## Related documentation
 
-- [05 — Interview demo flow](./diagrams/05-interview-demo-flow.excalidraw)
+- [Product walkthrough](./walkthrough.md)
+- [Architecture overview](./architecture/README.md)

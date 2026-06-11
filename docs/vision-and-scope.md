@@ -1,4 +1,4 @@
-# 01 — Problem & Vision
+# Vision & Scope
 
 ## Problem statement
 
@@ -67,7 +67,7 @@ Build an internal **Workflow Studio** — a governed EX automation platform with
 | HR onboarding cycle time | Start date set → all tasks assigned | −30% vs baseline |
 | Marketing debrief latency | Campaign end → debrief posted | < 24 hours |
 
-## Related diagrams
+## Related documentation
 
-- [Platform overview](./diagrams/01-platform-overview.excalidraw)  
-- [Roadmap phases](./09-roadmap-phases.md)
+- [Architecture overview](./architecture/README.md)
+- [Roadmap](./roadmap.md)

@@ -1,4 +1,4 @@
-# 09 — Roadmap Phases
+# Roadmap
 
 Phased delivery plan from Phase 0 prototype to production EX platform.
 
@@ -27,7 +27,7 @@ Phased delivery plan from Phase 0 prototype to production EX platform.
 - HR, Marketing, Healthcare, IT/SaaS vertical catalogs  
 - Role-based personas (Developer, PM, Admin)  
 - GitHub Pages deployment  
-- Interview documentation package (`docs/interview/`)
+- Platform documentation package (`docs/`)
 
 ### Limitations
 
@@ -183,8 +183,8 @@ GET  /api/v1/runs/{id}
 
 ---
 
-## Diagram reference
+## Related documentation
 
-- [Platform overview](./diagrams/01-platform-overview.excalidraw)  
-- [Backend architecture](./diagrams/03-backend-architecture.excalidraw)  
-- [Eval pipeline](./diagrams/04-eval-pipeline.excalidraw)
+- [Architecture overview](./architecture/README.md)
+- [Backend services](./architecture/backend-services.md)
+- [Eval & governance](./architecture/eval-and-governance.md)
